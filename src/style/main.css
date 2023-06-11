@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+}
+
+li {
+  border: 3px solid #2c4103;
+  background-color: #82c808;
+  border-radius: .5em;
+  padding: 10px;
+  cursor: move;
+
+  list-style: none;
+  color: #072801;
+}
+li.over{
+  border: 3px dashed #2c4103;
+}
